@@ -1,2 +1,2 @@
 # Tic-Tac-Trivia
-hello world
+A single device(multiplayer) tic-tac-toe game with a trivia spin.
