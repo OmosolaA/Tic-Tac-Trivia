@@ -1,0 +1,21 @@
+[debug] [2020-12-07T03:04:57.303Z] ----------------------------------------------------------------------
+[debug] [2020-12-07T03:04:57.305Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2020-12-07T03:04:57.305Z] CLI Version:   8.17.0
+[debug] [2020-12-07T03:04:57.305Z] Platform:      darwin
+[debug] [2020-12-07T03:04:57.305Z] Node Version:  v15.3.0
+[debug] [2020-12-07T03:04:57.306Z] Time:          Sun Dec 06 2020 22:04:57 GMT-0500 (Eastern Standard Time)
+[debug] [2020-12-07T03:04:57.306Z] ----------------------------------------------------------------------
+[debug] [2020-12-07T03:04:57.307Z] 
+[debug] [2020-12-07T03:04:57.312Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-07T03:04:57.312Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/javis/Downloads/SWE Project/tic-tac-toe-react-master
+

@@ -1,0 +1,77 @@
+.Game {
+    font-family: Helvetica, sans-serif;
+    
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;*/
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+
+
+
+    /*
+                    position: "fixed",
+                    top:"0", 
+                    left:"0", 
+                    width:"100%", 
+                    height:"100%",
+                    zIndex: "-1",
+
+                    display:"block",
+                    top: "50%",
+                    left: "50%",
+                    "-ms-transform": "translate(-50%, -50%)",
+                    transform: "translate(-50%, -50%)",
+                    alignContent: "center",
+                    textAlign:"center",
+                    alignItems:"center",
+    */
+
+    overflow: auto;
+
+    background: linear-gradient(-60deg, #e73c45,rgb(8, 10, 31), #1741b6,rgb(4, 24, 4),#0a5a06 ,rgb(29, 2, 2),#700707 );
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+}
+
+
+
+
+
+.player {
+    color: var(--text-color);
+}
+
+
+.confirmBtn {
+    margin-left: 7px;
+}
+
+.cancelBtn {
+    margin-right: 7px;
+}
+
+.buttons {
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+}

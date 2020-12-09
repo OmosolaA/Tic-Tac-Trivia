@@ -1,0 +1,13 @@
+.board {
+    width: 700px;
+	height: 700px;
+	margin: 15px auto;
+    background-color: white;
+    opacity: 0.2;
+
+    color: var(--text-color);
+    border: 6px solid black;
+    border-radius: 15px;
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}

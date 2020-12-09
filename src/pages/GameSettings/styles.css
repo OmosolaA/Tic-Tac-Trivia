@@ -1,0 +1,175 @@
+.GameSettings {
+    font-family: Helvetica, sans-serif;
+    /*
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    */
+
+    /*
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    */
+    overflow: auto;
+
+
+    background: linear-gradient(-60deg, #e73c45,rgb(8, 10, 31), #1741b6,rgb(4, 24, 4),#0a5a06 ,rgb(29, 2, 2),#700707 );
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    /*
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 25%;
+        }
+        25% {
+            background-position: 50% 75%;
+        }
+        50% {
+            background-position: 100% 75%;
+        }
+        75% {
+            background-position: 50% 75%;
+        }
+        100% {
+            background-position: 0% 25%;
+        }
+        
+    
+}
+
+*/
+
+/*.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}*/
+
+.themesSets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+
+
+}
+
+.themesSets ul {
+
+    
+    width: 340px;
+    margin-bottom: 40px;
+
+    top: auto;
+    left: auto;
+    
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.rounds {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+
+    /*
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    */
+}
+
+.rounds ul {
+    
+    
+    width: 300px;
+    margin-left: 20px;
+
+
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+    /*
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    */
+    
+}
+
+.rounds ul li input {
+    padding: 10px 30px
+}
+
+.rounds h1, .players h1 {
+    color:white;
+}
+
+.players {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+
+    
+    align-items: center;
+    width: 500px;
+    height: 170px;
+    margin-top: 50px;
+    
+}
+
+.players div {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+
+    
+    align-items: center;
+    width: 550px;
+    
+}
+
+.inputNickname {
+    height: 30px;
+    border: 1px solid grey;
+    padding: 15px;
+    outline: none;
+    transition: border 0.2s;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.inputNickname:hover {
+    border: 2px solid black;
+}
+
